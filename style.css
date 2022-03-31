@@ -1,0 +1,46 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  background-color: #A8DADC;
+  margin: 0;
+}
+img{
+  width: 200px;
+  border-radius: 50%;
+  margin-bottom: 50px;
+  
+}
+
+a{
+  text-decoration: none;
+}
+
+#nameFoto{
+  text-align: center;
+}
+
+#links{
+  text-align: center;
+}
+
+.header{
+  background-color: #457B9D;
+  padding: 20px;
+  text-align: center;
+}
+
+.content{
+  margin: 10px;
+}
+
+.button{
+  border-radius: 8px;
+  padding: 4px;
+  background-color: #457B9D;
+  color: #A8DADC;
+}
+
+.button:hover{
+  background-color: #1D3557;
+  transition: 500ms;
+}
