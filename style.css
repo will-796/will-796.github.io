@@ -1,46 +1,65 @@
-body{
-  font-family: 'Roboto', sans-serif;
+body {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
-  background-color: #A8DADC;
+  background-color: #a8dadc;
   margin: 0;
 }
-img{
-  width: 200px;
-  border-radius: 50%;
-  margin-bottom: 50px;
-  
-}
 
-a{
+a {
   text-decoration: none;
 }
 
-#nameFoto{
+p{
+  margin: 50px 50px;
+}
+
+#gitHubLogo{
+  width: 12px;
+  top: 20px;
+}
+
+#fotoPerfil {
+width: 200px;
+border-radius: 50%;
+margin-bottom: 50px;
+}
+
+#nameFoto {
+  text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  padding-bottom: 20px;
+}
+
+#links {
   text-align: center;
 }
 
-#links{
-  text-align: center;
-}
-
-.header{
-  background-color: #457B9D;
+.header {
+  background-color: #457b9d;
   padding: 20px;
   text-align: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
 }
 
-.content{
-  margin: 10px;
+.content {
+  margin: 100px;
 }
 
-.button{
+.button {
   border-radius: 8px;
-  padding: 4px;
-  background-color: #457B9D;
-  color: #A8DADC;
+  padding: 4px 24px;
+  background-color: #457b9d;
+  color: #a8dadc;
+  border: 1px;
 }
 
-.button:hover{
-  background-color: #1D3557;
+.button:hover {
+  background-color: #1d3557;
   transition: 500ms;
+}
+
+.footer{
+  background-color: #457b9d;
+  padding: 20px;
+  text-align: center;
 }
